@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player">
+        <img id="songImage" src="song.jpg" alt="Song Image">
+        <audio id="audio" src="song.mp3"></audio>
+        <div class="controls">
+            <button id="playPause">Play</button>
+            <button id="stop">Stop</button>
+            <input type="range" id="progress" min="0" max="100" value="0">
+            <button id="rewind">Rewind</button>
+            <button id="forward">Forward</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
